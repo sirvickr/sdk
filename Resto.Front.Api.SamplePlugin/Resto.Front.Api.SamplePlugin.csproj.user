@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <RemoteDebugMachine>\\VM_IIKO</RemoteDebugMachine>
+    <StartWorkingDirectory>\\VM_IIKO\Plugins\Resto.Front.Api.SamplePlugin\</StartWorkingDirectory>
+    <StartAction>Project</StartAction>
+    <StartProgram>\\VM_IIKO\Program Files\iiko\iikoRMS\Front.Net\Resto.CashServer.OutOfProcHost.exe</StartProgram>
+  </PropertyGroup>
+</Project>
